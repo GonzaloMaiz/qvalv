@@ -1,0 +1,22 @@
+{
+  "name": "qvalv",
+  "version": "1.0.0",
+  "description": "quién vigila a los vigilantes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yajepanta/qvalv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yajepanta/qvalv/issues"
+  },
+  "homepage": "https://github.com/yajepanta/qvalv#readme",
+  "devDependencies": {
+    "babel-install": "2.1.0"
+  }
+}

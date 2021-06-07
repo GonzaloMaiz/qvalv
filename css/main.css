@@ -1,0 +1,37 @@
+body {
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MOBILE*/
+
+@media (max-width: 500px) {
+
+    .nav-desktop {
+        display: none;
+    }
+    
+}
+
+/* TABLETS */  
+@media (min-width: 501px) and (min-width: 1200px)  {
+
+    .nav-desktop {
+        display: none;
+    }
+}
+
+/* DESKTOP */  
+
+@media (min-width: 1201px) {
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+}

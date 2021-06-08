@@ -1,36 +1,91 @@
+@import "nav.css";
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('../assets/fonts/andale-mono-mt-std-bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url('../assets/fonts/Heavitas.ttf') format('truetype');
+}
+
 body {
     background-image: url(../assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.heavitas {
+    font-family: 'Heavitas';
+}
+
+.andale-mono {
+    font-family: 'AndaleMono';
+}
+
+.margin-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-container {
+    background-color: #FFFFFF;
+    padding: 20px 0 30px 0;
+    
+}
+
+.body-list {
+    color: #692ba3;
+}
+
+
+/* DESKTOP */  
+
+@media (min-width: 1201px) {
+    .main-container{
+        width: 60vw;
+        padding: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container-heading {
+        font-size: 20px;
+        line-height: 24px;
+        color: #692ba3;
+    }
+
+    .index-video{
+        background-image: url("../assets/img/F3-Oscar_Rosario033.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: inherit;
+        margin: auto auto 40px auto;
+    }
+
+    .body-text{
+        line-height: 16px;
+        font-size: 13px;
+        letter-spacing: 0.25;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .body-box{
+        color: #0fa976;
+        padding: 8px;
+        border: 2px solid #0fa976;
+        text-align: center;
+    }
 }
 
 /* MOBILE*/
 
 @media (max-width: 500px) {
 
-    .nav-desktop {
-        display: none;
-    }
 }
 
 /* TABLETS */  
 @media (min-width: 501px) and (min-width: 1200px) {
-
-    .nav-desktop {
-        display: none;
-    }
-}
-
-/* DESKTOP */  
-
-@media (min-width: 1201px) {
-
-    .nav-mobile {
-        display: none;
-    }
-
-    .nav-desktop {
-        display: block;
-    }
 
 }

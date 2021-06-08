@@ -1,5 +1,5 @@
 const nav = () => {
-    const header = document.querySelector("header");
+
     const navComponent = `
         <a href="./index.html"><img src="" alt="main logo"></a>
         <nav class="nav-desktop">
@@ -20,5 +20,10 @@ const nav = () => {
         </nav>
     `;
     
-  header.appendChild(navComponent);
+    const fragment = document.createDocumentFragment();
+    const div = document.createElement('div');
+    div.innerHTML = navComponent;
+    return fragment;
 }
+
+export default nav;

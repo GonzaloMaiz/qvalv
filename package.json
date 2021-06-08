@@ -4,7 +4,8 @@
   "description": "quién vigila a los vigilantes",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/yajepanta/qvalv#readme",
   "devDependencies": {
-    "babel-install": "2.1.0"
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "babel-install": "2.1.0",
+    "@babel/core": "^7.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "serve": "^11.0.2"
   }
 }

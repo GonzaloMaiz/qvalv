@@ -17,3 +17,12 @@
 .andale-mono {
     font-family: 'AndaleMono';
 }
+
+.text-centered {
+    text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -12,12 +12,15 @@ body {
 .margin-auto {
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 .main-container {
     background-color: #FFFFFF;
+    width: 70vw;
     padding: 5%;
 }
+
 
 .body-list {
     list-style: none;
@@ -34,7 +37,41 @@ body {
     margin-bottom: 5px;
 }
 
-/* DESKTOP */  
+.body-box{
+    padding: 8px;
+    border: 2px solid #0fa976;
+}
+
+.body-text{
+    line-height: 16px;
+    font-size: 13px;
+    letter-spacing: 0.25;
+}
+
+.main-container-image{
+    height: 55vh;
+    width: inherit;
+    margin: auto auto 25px auto;
+}
+
+
+/* MEDIA QUERIES */  
+@media (min-width: 501px) and (max-width: 1200px) {
+
+    .main-container-image{
+        height: 80vh;
+        width: inherit;
+        margin: auto auto 25px auto;
+    }
+
+    .body-text{
+        line-height: 16px;
+        font-size: 13px;
+        letter-spacing: 0.25;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
 
 @media (min-width: 1201px) {
     .main-container{
@@ -52,41 +89,4 @@ body {
         margin: auto auto 25px auto;
     }
 
-    .body-text{
-        line-height: 16px;
-        font-size: 13px;
-        letter-spacing: 0.25;
-        text-align: justify;
-        text-justify: inter-word;
-    }
-
-    .body-box{
-        padding: 8px;
-        border: 2px solid #0fa976;
-        text-align: center;
-    }
-}
-
-/* MOBILE*/
-
-@media (max-width: 500px) {
-
-}
-
-/* TABLETS */  
-@media (min-width: 501px) and (max-width: 1200px) {
-    .main-container{
-        width: 70vw;
-    }
-
-    .main-container-image{
-        height: 80vh;
-        width: inherit;
-        margin: auto auto 25px auto;
-    }
-    .body-box{
-        padding: 8px;
-        border: 2px solid #0fa976;
-        text-align: center;
-    }
 }

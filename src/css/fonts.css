@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('../assets/fonts/andale-mono-mt-std-bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url('../assets/fonts/Heavitas.ttf') format('truetype');
+}
+
+/* Font family */
+
+.heavitas {
+    font-family: 'Heavitas';
+}
+
+.andale-mono {
+    font-family: 'AndaleMono';
+}

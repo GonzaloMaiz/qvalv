@@ -18,24 +18,29 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin: 20px 10vw 30px 10vw;
+        position: relative;
     }
     .nav-desktop, .nav-mobile-menu, #mobile-menu-burguer-check {
         display: none;
     }
-
     .nav-mobile-logo{
         width: 20vw;
-        margin-left: 10vw;
     }
     #mobile-menu-burguer-check:checked ~ .nav-mobile-menu {
         display: flex;
-        /* margin-left:0; */
-        /* transition: 1s; */
+        position: absolute;
+        flex-direction: column;
+        background-color: #692ba3;
+        border-radius: 3px;
+        margin-top: 37vh;
+        margin-left: 60vw;
+        transition: 1s;
     }
     .nav-mobile-burguer{
-        width: 40%;
+        width: 40px;
+        height: 40px;
+
     }
    
 }

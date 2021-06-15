@@ -1,5 +1,10 @@
 @font-face {
     font-family: 'AndaleMono';
+    src: url('../assets/fonts/andale-mono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AndaleMonoBold';
     src: url('../assets/fonts/andale-mono-mt-std-bold.otf') format('truetype');
 }
 
@@ -7,6 +12,7 @@
     font-family: 'Heavitas';
     src: url('../assets/fonts/Heavitas.ttf') format('truetype');
 }
+
 
 /* Font family */
 

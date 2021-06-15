@@ -1,12 +1,21 @@
-.nav-mobile-burguer{
-    width: 40px;
-    height: 40px;
+.nav-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10vw 30px 10vw;
+    position: relative;
 }
-
-/* MOBILE*/
-
-@media (max-width: 500px) {
-
+.nav-mobile-logo{
+    width: 20vw;
+}
+.nav-desktop {
+    display: none;
+}
+/*     .nav-mobile-burguer{
+        width: 40px;
+        height: 40px;
+    }
     .nav-desktop, .nav-mobile-menu, #mobile-menu-burguer-check {
         display: none;
     }
@@ -29,9 +38,8 @@
         margin-top: 37vh;
         margin-left: 60vw;
         transition: 1s;
-    }
+    } */
   
-}
 
 /* TABLETS */  
 @media (min-width: 501px) and (max-width: 1200px) {
@@ -43,7 +51,10 @@
         margin: 20px 10vw 30px 10vw;
         position: relative;
     }
-    .nav-desktop, .nav-mobile-menu, #mobile-menu-burguer-check {
+    .nav-mobile-logo{
+        width: 20vw;
+    }
+/*     .nav-desktop, .nav-mobile-menu, #mobile-menu-burguer-check {
         display: none;
     }
     .nav-mobile-logo{
@@ -58,8 +69,7 @@
         margin-top: 37vh;
         margin-left: 60vw;
         transition: 1s;
-    }
-   
+    } */
 }
 
 /* DESKTOP */  
@@ -73,21 +83,21 @@
     .nav-desktop {
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 12vh;
         margin-bottom: 50px;
     }
 
     .nav-desktop-logo {
-        width: 20vw;
+        width: 25vw;
         margin-left: 5vw;
     }
 
     .nav-desktop-menu-container{
-        background-image: url("../assets/img/menu1.png");
+        background-image: url("../assets/img/menu2.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 160px;
-        width: 170px;
+        height: 210px;
+        width: 250px;
     }
 
     .nav-desktop-menu {
@@ -98,7 +108,8 @@
         justify-content: space-between;
         padding: 0;
         margin-top: -18px;
-        font-size: 13px;
+        font-size: 16px;
+        line-height: 18px;
         letter-spacing: 0.6;
 
     }

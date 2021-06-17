@@ -15,32 +15,40 @@
 }
 
 .nav-mobile-logo{
-    width: 55vw;    
+    width: 55vw;   
 }
 
 .nav-menu-container{
     margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
  }
 
-.nav-mobile-menu-bg {
+.nav-menu-container{
+    display: grid;
+    grid-template-areas: 'soloyo';
     width: 100vw;
+    height: 270px;
 }
 
- .nav-menu-links {
+.nav-mobile-menu-bg {
+    grid-area: soloyo;
+    width: 100vw;
+    height: 240px;
+}
+
+.nav-menu-links{
+    grid-area: soloyo;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     list-style: none;
-    width: 100vw;
-    height: 31vh;
-    padding: 0;
-    margin-top: -34vh;
-    font-size: 1em;
-    line-height: 1.15em;
-    letter-spacing: 0.1em;
+    justify-content: space-around;
 }
 
+.nav-menu-links > li {
+    margin-bottom: 50px;
+}
 .nav-menu-links > li > a {
     text-decoration: none;
 }
@@ -48,7 +56,7 @@
 /* TABLETS */  
 @media (min-width: 501px) and (max-width: 1100px) {
 
-    .nav-mobile-logo{
+/*     .nav-mobile-logo{
         width: 60vw;
     }
 
@@ -64,7 +72,7 @@
         font-size: 1.8em;
         line-height: 1.15em;
         letter-spacing: 0.1em;
-    }
+    } */
     
 }
 
@@ -79,38 +87,37 @@
     .nav-desktop {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        margin-top: 8vh;
+       /*  height: 25vh; */
+       /*  align-items: center;
+        align-content: center; */
+        /* margin-top: 8vh; */
     }
     .nav-desktop-logo {
         min-width: 300px;
         width: 25vw;
-        height: 28vh;
+        /* height: 25vh; */
         margin-left: 7vw;
     }
     .nav-menu-container{
-        width: 20vw;
-        height: 32vh;
-        margin-top: 8vh;
-        margin-bottom: 2vh;
+        /* width: 216vw; */
+        /* height: 300px; */
+        /* margin-top: 8vh;
+        margin-bottom: 2vh; */
      }
 
     .nav-desktop-menu-bg{
-        height: 30vh;
         width: 20vw;
+        grid-area: soloyo;
+        height: 220px;
     }
     .nav-menu-links {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style: none;
-        height: 32vh;
-        width: initial;
+        height: 220px;
         padding: 0;
-        margin-top: -34vh;
-        font-size: 1.1em;
-        line-height: 1.15em;
+        font-size: 1.15em;
+        line-height: 0em;
         letter-spacing: 0.1em;
+    }
+    .nav-menu-links > li {
+        margin-bottom: 60px;
     }
 }

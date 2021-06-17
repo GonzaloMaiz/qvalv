@@ -19,7 +19,7 @@ body {
     background-color: #FFFFFF;
     width: 70vw;
     min-height: 50vh;
-    padding: 5%;
+    padding: 8%;
 }
 
 .body-list {
@@ -43,7 +43,8 @@ body {
 }
 
 .container-heading {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    font-size: calc(.5rem + 1vmax + 2vmin);
     line-height: 24px;
 }
 

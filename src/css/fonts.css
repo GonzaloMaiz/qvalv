@@ -24,6 +24,9 @@
     font-family: 'AndaleMono';
 }
 
+.andale-mono-bold {
+    font-family: 'AndaleMonoBold';
+}
 .text-centered {
     text-align: center;
 }

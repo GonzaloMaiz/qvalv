@@ -52,6 +52,7 @@ body {
     line-height: 1.05em;
     font-size: 1.05em;
     letter-spacing: 0.25;
+    text-align: unset;
     font-family: 'AndaleMono';
 }
 
@@ -83,7 +84,7 @@ body {
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1101px) and (max-width: 1600px){
     
     body {
         background-image: url(../assets/img/background.jpg);
@@ -113,7 +114,57 @@ body {
         line-height: 1em;
         font-size: 1em;
         letter-spacing: 0.2;
+/*         text-align: justify; */
+        text-justify: inter-word;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1800px){
+    .main-container{
+        width: 50vw;
+        padding: 5%;
+    }
+    .main-container-image{
+        height: 60%;
+        width: 100%;
+        margin: auto auto 25px auto;
+        
+    }
+    .container-heading {
+        font-size: 1.4em;
+        line-height: 1.2em;
+        letter-spacing: 1;
+    }
+    .body-text{
+        line-height: 1em;
+        font-size: 1.2em;
+        letter-spacing: 0.2;
+/*         text-align: justify; */
+        text-justify: inter-word;
+    }
+}
+@media (min-width: 1801px) {
+
+    .main-container{
+        width: 50vw;
+        padding: 4%;
+    }
+    .body-text{
+        line-height: 1.4em;
+        font-size: 1.4em;
+        letter-spacing: 0.2;
         text-align: justify;
         text-justify: inter-word;
+    }
+    .main-container-image{
+        height: 75%;
+        width: 100%;
+        margin: auto auto 25px auto;
+    }
+
+    .container-heading {
+        font-size: 1.6em;
+        line-height: 1.8em;
+        letter-spacing: 1;
     }
 }

@@ -66,6 +66,14 @@ body {
 /* MEDIA QUERIES */  
 @media (min-width: 501px) and (max-width: 1200px) {
 
+    body {
+        background-image: url(../assets/img/bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: auto;
+    }
+
     .main-container-image{
         height: 70%;
         width: 100%;
@@ -119,7 +127,7 @@ body {
     }
 }
 
-@media (min-width: 1601px) and (max-width: 1800px){
+@media (min-width: 1601px) and (max-width: 1900px){
     body {
         background-image: url(../assets/img/background.jpg);
         background-repeat: no-repeat;
@@ -151,7 +159,7 @@ body {
         text-justify: inter-word;
     }
 }
-@media (min-width: 1801px) {
+@media (min-width: 1901px) {
 
     body {
         background-image: url(../assets/img/background.jpg);

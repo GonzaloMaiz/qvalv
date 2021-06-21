@@ -120,6 +120,14 @@ body {
 }
 
 @media (min-width: 1601px) and (max-width: 1800px){
+    body {
+        background-image: url(../assets/img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: unset;
+        margin: auto;
+    }
+
     .main-container{
         width: 50vw;
         padding: 5%;
@@ -144,6 +152,14 @@ body {
     }
 }
 @media (min-width: 1801px) {
+
+    body {
+        background-image: url(../assets/img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: unset;
+        margin: auto;
+    }
 
     .main-container{
         width: 50vw;

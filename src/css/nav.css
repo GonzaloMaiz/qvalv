@@ -48,7 +48,7 @@
 }
 
 /* TABLETS */  
-@media (min-width: 501px) and (max-width: 1100px) {
+/* @media (min-width: 450px) and (max-width: 1100px) {
 
     .nav-mobile-menu-container{
         display: grid;
@@ -80,10 +80,10 @@
     }
     
 }
-
+ */
 /* DESKTOP */  
 
-@media (min-width: 1101px) and (max-width: 1800px){
+@media (min-width: 600px) and (max-width: 1800px){
 
     .nav-mobile {
         display: none;

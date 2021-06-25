@@ -82,7 +82,7 @@
 }
  */
 
-@media (orientation: landscape) {
+@media (max-width: 500px) and (orientation: landscape) {
     .nav-mobile {
         display: none;
     }

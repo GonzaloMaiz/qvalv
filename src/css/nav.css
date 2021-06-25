@@ -83,7 +83,7 @@
 
 /* LANDSCAPE */
 
-@media (max-width: 500px) and (orientation: landscape) {
+/* @media (max-width: 500px) and (orientation: landscape) {
     .nav-mobile {
         display: none;
     }
@@ -120,7 +120,7 @@
     .nav-desktop-menu-links > li > a {
         text-decoration: none;
     }
-}
+} */
 
 /* DESKTOP */  
 

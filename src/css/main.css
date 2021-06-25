@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "fonts.css";
+@import "gallery.css";
 @import "colors.css";
 
 body {
@@ -44,13 +45,6 @@ body {
     font-size: 1.15em;
     letter-spacing: 0.25;
     font-family: 'AndaleMono';
-}
-
-.container-heading {
-    /* font-size: 1.1em; */
-    text-align: left;
-    font-size: calc(.5rem + 1vmax + 2vmin);
-    line-height: 24px;
 }
 
 .main-container-image{

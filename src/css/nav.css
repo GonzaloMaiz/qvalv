@@ -182,21 +182,22 @@
     .nav-desktop-menu-container{
         display: grid;
         grid-template-areas: 'soloyo';   
-        width: 20vw;
+        width: auto;
      }
 
     .nav-desktop-menu-bg{
-        width: 20vw;
+        width: 340px;
         grid-area: soloyo;
-        height: 250px;
-        padding-top: 70px;
+        height: auto;
+        padding-top: 80px;
     }
     .nav-desktop-menu-links {
         grid-area: soloyo;
         list-style: none;
         padding: 0;
-        font-size: 22px;
-        line-height: 70px;
+        /* margin-top: 10px; */
+        font-size: 24px;
+        line-height: 88px;
     }
 
     .nav-desktop-menu-links > li > a {

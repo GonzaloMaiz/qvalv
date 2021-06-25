@@ -48,7 +48,7 @@
 }
 
 /* TABLETS */  
-/* @media (min-width: 450px) and (max-width: 1100px) {
+@media (min-width: 450px) and (max-width: 1100px) {
 
     .nav-mobile-menu-container{
         display: grid;
@@ -74,14 +74,15 @@
         font-size: 19px;
         line-height: 65px;
     }
-    
+     
     .nav-mobile-menu-links > li > a {
         text-decoration: none;
     }
     
 }
- */
 
+/* LANDSCAPE */
+/* 
 @media (max-width: 500px) and (orientation: landscape) {
     .nav-mobile {
         display: none;
@@ -120,7 +121,7 @@
         text-decoration: none;
     }
 }
-
+ */
 /* DESKTOP */  
 
 @media (min-width: 500px) and (max-width: 1800px){

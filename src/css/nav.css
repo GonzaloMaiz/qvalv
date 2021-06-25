@@ -48,7 +48,7 @@
 }
 
 /* TABLETS */  
-/* @media (min-width: 450px) and (max-width: 1100px) {
+@media (min-width: 450px) and (max-width: 1100px) {
 
     .nav-mobile-menu-container{
         display: grid;
@@ -79,7 +79,7 @@
         text-decoration: none;
     }
     
-} */
+}
 
 /* LANDSCAPE */
 
@@ -124,7 +124,7 @@
 
 /* DESKTOP */  
 
-@media (min-width: 500px) and (max-width: 1800px){
+@media (min-width: 500px) and (max-width: 1700px){
 
     .nav-mobile {
         display: none;
@@ -164,7 +164,7 @@
     }
 }
 
-@media (min-width: 1801px) {
+@media (min-width: 1701px) {
     .nav-mobile {
         display: none;
     }
@@ -188,14 +188,14 @@
     .nav-desktop-menu-bg{
         width: 20vw;
         grid-area: soloyo;
-        height: 230px;
+        height: 250px;
         padding-top: 70px;
     }
     .nav-desktop-menu-links {
         grid-area: soloyo;
         list-style: none;
         padding: 0;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 70px;
     }
 

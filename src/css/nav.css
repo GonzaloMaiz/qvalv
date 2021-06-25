@@ -83,7 +83,7 @@
  */
 /* DESKTOP */  
 
-@media (min-width: 460px) and (max-width: 1800px){
+@media (min-width: 500px) and (max-width: 1800px) and (orientation: landscape){
 
     .nav-mobile {
         display: none;

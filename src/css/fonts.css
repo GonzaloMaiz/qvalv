@@ -37,7 +37,7 @@
 }
 
 .container-heading {
-    font-size: 1.2em;
+    font-size: 1.6em;
     line-height: 1.8em;
     letter-spacing: 1;
     text-align: left;
@@ -63,7 +63,7 @@
         text-align: left;
     }
     .container-subtitle {
-        font-size: 1.3em;
+        font-size: 2.1em;
         line-height: 1.5em;
         text-align: left;
     }
@@ -84,8 +84,8 @@
         letter-spacing: 1;
     }
     .container-subtitle {
-        font-size: 1.3em;
-        line-height: 1.3em;
+        font-size: 2.1em;
+        line-height: 1.8em;
         text-align: left;
         letter-spacing: 1;
     }
@@ -120,14 +120,14 @@
 
 @media (min-width: 1901px) {
     .container-heading {
-        font-size: 1.4em;
-        line-height: 1.6em;
+        font-size: 2.4em;
+        line-height: 2.4em;
         letter-spacing: 1;
         text-align: left;
     }
     .container-subtitle {
-        font-size: 1.4em;
-        line-height: 1.6em;
+        font-size: 2.4em;
+        line-height: 2.4em;
         letter-spacing: 1;
         text-align: left;
     }

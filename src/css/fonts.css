@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('../assets/fonts/andale-mono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AndaleMonoBold';
+    src: url('../assets/fonts/andale-mono-mt-std-bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url('../assets/fonts/Heavitas.ttf') format('truetype');
+}
+
+
+/* Font family */
+
+.heavitas {
+    font-family: 'Heavitas';
+}
+
+.andale-mono {
+    font-family: 'AndaleMono';
+}
+
+.andale-mono-bold {
+    font-family: 'AndaleMonoBold';
+}
+.text-centered {
+    text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container-heading {
+    font-size: 1.8rem;
+    line-height: 1;
+    letter-spacing: 1;
+    text-align: left;
+}
+
+.container-subtitle {
+    font-size: 1.6rem;
+    line-height: 1;
+    letter-spacing: 1;
+    text-align: left;
+}
+.body-text{
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.25;
+}
+
+@media (min-width: 501px) and (max-width: 1100px) {
+    .container-heading {
+        font-size: 2.1rem;
+        line-height: 1;
+        text-align: left;
+    }
+    .container-subtitle {
+        font-size: 2.1rem;
+        line-height: 1;
+        text-align: left;
+    }
+    .body-text{        
+        font-size: 1.15rem;
+        line-height: 1.35rem;
+        letter-spacing: 0.25;
+        text-align: left;
+        font-family: 'AndaleMono';
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1600px){
+    .container-heading {
+        font-size: 2.1rem;
+        line-height: 1;
+        text-align: left;
+        letter-spacing: 1;
+    }
+    .container-subtitle {
+        font-size: 2.1rem;
+        line-height: 1;
+        text-align: left;
+        letter-spacing: 1;
+    }
+    .body-text{
+        font-size: 1.15rem;
+        line-height: 1.35rem;
+        letter-spacing: 0.2;    
+        text-align: left;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1900px){
+    .container-heading {
+        font-size: 2.4rem;
+        line-height: 1;
+        letter-spacing: 1;
+        text-align: left;
+    }
+    .container-subtitle {
+        font-size: 2.4rem;
+        line-height: 1;
+        letter-spacing: 1;
+        text-align: left;
+    }
+    .body-text{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.2;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1901px) {
+    .container-heading {
+        font-size: 2.4rem;
+        line-height: 1;
+        letter-spacing: 1;
+        text-align: left;
+    }
+    .container-subtitle {
+        font-size: 2.4rem;
+        line-height: 1;
+        letter-spacing: 1;
+        text-align: left;
+    }
+    .body-text{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.2;
+        text-align: left;
+        
+    }
+}
